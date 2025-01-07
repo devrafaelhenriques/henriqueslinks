@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(66, 66, 66);
+    background-image: url('https://imgur.com/HyVYkFf.jpeg');
+
+}
+
+header {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo do header */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100px; /* Ajuste a altura conforme necessário */
+}
+
+.menu {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0;
+    margin: 0;
+    margin-top: 35px;
+
+}
+
+.menu li {
+    display: flex;
+    justify-content: center; /* Centraliza a logo horizontalmente */
+    align-items: center; /* Centraliza a logo verticalmente */
+}
+
+.menu img {
+    max-width: 140px; /* Define um tamanho máximo para o logo */
+    height: auto;
+}
+
+
+hr {
+
+    border: none;
+
+}
+
+.links-container {
+
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+#link1, #link2,
+#link3, #link4,
+#link5, #link6 {
+
+    background-color: transparent;
+    color: rgb(238, 238, 238);
+    padding: 15px 15px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 520px;
+    margin: auto;
+
+}
+
+#link1:hover, #link2:hover,
+#link3:hover, #link4:hover,
+#link5:hover, #link6:hover {
+
+    background-color: rgb(238, 238, 238);
+    color: rgb(63, 63, 63);
+
+}
+
+/* RODAPÉ */
+
+footer {
+
+    margin-top: 12%;
+    background-color: transparent;
+    clear: both;
+    padding: 28px;         
+    color: rgb(250,255,250);
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+    object-fit: scale-down;
+    margin-bottom: 0;
+    text-align: center;
+    height: 75px;
+
+}
+
+#direitos {
+
+    margin-top: 10%;
+    color: rgb(238, 238, 238);
+
+}
+
+
+
+@media (max-width: 768px) {
+    header {
+        margin: 10px 0;
+        height: auto;
+    }
+
+    .menu img {
+        max-width: 100px;
+    }
+
+    .links-container {
+        margin-top: 30px;
+    }
+
+    #link1, #link2, #link3, #link4, #link5, #link6 {
+        width: 90%; /* Botões ocupam 90% da largura disponível */
+        font-size: 16px;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
+    .icones {
+        display: flex;
+        justify-content: center; /* Garante a centralização no mobile */
+        align-items: center;
+        gap: 15px;
+        width: 100%; /* Garante que os ícones usem toda a largura disponível */
+        padding: 0;
+    }
+}
