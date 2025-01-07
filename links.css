@@ -40,7 +40,7 @@ header {
 }
 
 .menu img {
-    max-width: 140px; /* Define um tamanho máximo para o logo */
+    max-width: 220px; /* Define um tamanho máximo para o logo */
     height: auto;
 }
 
@@ -133,15 +133,6 @@ footer {
     }
 
     footer {
-        margin-top: 20px;
-    }
-
-    .icones {
-        display: flex;
-        justify-content: center; /* Garante a centralização no mobile */
-        align-items: center;
-        gap: 15px;
-        width: 100%; /* Garante que os ícones usem toda a largura disponível */
-        padding: 0;
+        margin-top: 60px;
     }
 }
