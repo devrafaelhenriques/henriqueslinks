@@ -59,7 +59,7 @@ main {
 }
 
 .eyebrow {
-    font-family: "Koulen", sans-serif;
+    font-family: "Sora", "Inter", sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--accent);
@@ -68,7 +68,7 @@ main {
 }
 
 h1 {
-    font-family: "Koulen", sans-serif;
+    font-family: "Sora", "Inter", sans-serif;
     font-size: clamp(36px, 6vw, 64px);
     line-height: 1.05;
     margin: 0;
@@ -141,7 +141,7 @@ h1 {
 }
 
 .cta h2 {
-    font-family: "Koulen", sans-serif;
+    font-family: "Sora", "Inter", sans-serif;
     text-transform: uppercase;
     font-size: clamp(28px, 4vw, 42px);
     margin: 0;
